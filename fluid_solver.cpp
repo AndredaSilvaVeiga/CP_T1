@@ -83,6 +83,7 @@ void lin_solve(int M, int N, int O, int b, float *x, float *x0, float a,
     }
     set_bnd(M, N, O, b, x);
   }
+}
 
 // Diffusion step (uses implicit method)
 void diffuse(int M, int N, int O, int b, float *x, float *x0, float diff,
